@@ -1,0 +1,75 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        tangerine: "#F0860E",
+        spanish_gray: "#979797",
+        spanish_gray2: "#989595",
+        platinum: "#E6E6E6",
+        light_silver: "#D9D9D9",
+        black_coral: "#4E5D78",
+        dark_charcoal: "#333333",
+        chinese_silver: "#CCCCCC",
+        cetacean_blue: "#061033",
+        spanish: "#9B9B9B",
+        denim_blue: "#2644AE",
+        cadet_gray: "#9CA3AF",
+        gainsboro: "#D8DBDF",
+        cool_grey: "#8E89AA",
+        coral_red: "#F84343",
+        sunglow: "#FED33C",
+        blueberry: "#5383FF",
+        apple_green: "#06882A",
+        rose_light: "#FF6161",
+        granite_gray: "#6A6666",
+        granite_gray2: "#606060",
+        american_silver: "#C9CED6",
+        ash: "#6A6666",
+        honey_dew: "#E9FFEF",
+        north_texas_green: "#06882A",
+        cultured: "#F5F5F5",
+        floral_white: "#FFFCEF",
+      },
+      screens: {
+        xs: "540px",
+      },
+      borderWidth: {
+        xs: "0.5px",
+      },
+      borderRadius: {
+        xs: "0.5rem",
+      },
+      fontSize: {
+        t10: ["0.65rem", "0.71rem"],
+        t12: ["0.75rem", "0.85rem"],
+        t14: ["0.88rem", "1rem"],
+        t16: ["0.95rem", "1.8rem"],
+        t18: ["1.07rem", "1.35rem"],
+        t20: ["1.25rem", "1.48rem"],
+        t24: ["1.4rem", "1.56rem"],
+        t32: ["2.5rem", "2.85rem"],
+        t40: ["2.22rem", "2.61rem"],
+      },
+      fontFamily: {
+        roboto: ["var(--font-roboto)"],
+        product_sans: ["var(--font-productSans)"],
+      },
+      boxShadow: {
+        card: "0px 2.7007px 6.75174px rgba(0, 0, 0, 0.15)",
+      },
+      screens: {
+        "2xs": "200px",
+        "1xs": "350px",
+        "1xl": "1400px",
+        "3xl": "2000px",
+      },
+    },
+  },
+  plugins: [],
+};
